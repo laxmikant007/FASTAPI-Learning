@@ -17,7 +17,7 @@ def about():
 
 
 @app.get("/contact")
-def about():
+def contact():
     return {"data" : {"page" : "Contact page is here !!!!"}}
 
 @app.get("/items/{item_id}")
